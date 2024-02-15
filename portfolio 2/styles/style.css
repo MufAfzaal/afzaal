@@ -1,0 +1,111 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+section img{
+    width: 500px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Project Styles */
+.project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Form Styles */
+form label,
+form textarea,
+form input[type="text"],
+form input[type="email"],
+form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
